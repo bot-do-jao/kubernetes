@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pibic-test
+  labels:
+    app: pibic-test
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: pibic-test
+  template:
+    metadata:
+      labels:
+        app: pibic-test
+    spec:
+      containers:
+        - name: pibic-test
+          image: criptoempi/pibic:1.0
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pibic-test-service
+spec:
+  selector:
+    app: pibic-test
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
+      nodePort: 31000
