@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Kubernetes studies results
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Joao Pedro
+    family-names: Nobrega Fernandes
+    email: joaopedrobsb3@gmail.com
+    orcid: 'https://orcid.org/0000-0001-5616-3421'
+repository-code: 'https://github.com/bot-do-jao/kubernetes'
+abstract: >-
+  This repository contains basically every study case and
+  prototipe aswell as the final result of this research
+date-released: '2023-05-13'
