@@ -1,0 +1,19 @@
+{
+  "name": "docker-proj",
+  "version": "1.0.0",
+  "description": "a test to implement docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "kubernetes"
+  ],
+  "author": "joao pedro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
