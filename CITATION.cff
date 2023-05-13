@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "My pibic repository cited in the paper"
+author:
+  - name: "Joao Pedro Nobrega Fernandes"
+    orcid: https://orcid.org/0000-0001-5616-3421
+title: "My Research Results"
+version: 1.0
+date-released: 2023-05-13
